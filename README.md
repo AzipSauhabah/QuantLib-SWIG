@@ -58,6 +58,10 @@ You can also use the `quantlib-users` and `quantlib-dev` mailing lists
 for feedback, questions, etc.  More information and instructions for
 subscribing are at <https://www.quantlib.org/mailinglists.shtml>.
 
+after installing python and swig, you can run the following: 
+
+swig -python -c++ -outdir src/QuantLib -o src/QuantLib/quantlib_wrap.cpp ..\\SWIG\\quantlib.i
+
 
 Contributing
 ------------
